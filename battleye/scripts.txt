@@ -10,8 +10,8 @@
 7 showCommandingMenu
 7 setUnitRecoilCoefficient
 7 setWeaponReloadingTime
-7 addAction  !="em) then\n{\nExileClientInteractionHandles pushBack (_object addAction \n[\ngetText(_menuItem >> \"title\"), \ngetText(_menuItem >> \"ac" !="rWnonDnon_loop\";\nExileClientBreakFreeActionHandle = player addAction \n[\n\"Break free\", \n{call ExileClient_object_handcuffs_breakF" !="this select 0;    \n_options = _this select 1;\n{\n\n_id =  _unit addAction [format [\"%1\",_x],{call FuMS_fnc_DirectCaptive}, [_x],6,tru" !="\"Rearm: %1 poptabs\", _rearmCost];\nAVS_rearmAction = player addAction [_rearmTitle, AVS_fnc_requestRearm, [_vehicle]];\nAVS_previo"
-7 remoteexec !="ssionId, _messageName, _messageParameters];\n_publicMessage remoteExecCall [\"ExileServer_system_network_dispatchIncomingMessage\"," !="icle Rearm.";\n[ExileClientSessionId, _vehicle, _rearmCost] remoteExecCall [\"AVS_fnc_rearmVehicle\", 2];\nExileClientPlayerMoney = "!="icle Rearm.";\n[ExileClientSessionId, _vehicle, _rearmCost] remoteExecCall [\"AVS_fnc_rearmVehicle\", 2];\nExileClientPlayerMoney = "
+7 addAction  !="em) then\n{\nExileClientInteractionHandles pushBack (_object addAction \n[\ngetText(_menuItem >> \"title\"), \ngetText(_menuItem >> \"ac" !="rWnonDnon_loop\";\nExileClientBreakFreeActionHandle = player addAction \n[\n\"Break free\", \n{call ExileClient_object_handcuffs_breakF" !="this select 0;    \n_options = _this select 1;\n{\n\n_id =  _unit addAction [format [\"%1\",_x],{call FuMS_fnc_DirectCaptive}, [_x],6,tru"
+7 remoteexec !="ssionId, _messageName, _messageParameters];\n_publicMessage remoteExecCall [\"ExileServer_system_network_dispatchIncomingMessage\","
 7 drawline3d
 7 onEachFrame !="onEachFrame {};"
 7 removeAllItems
@@ -44,4 +44,3 @@
 7 removeMPEventHandler
 7 removeAllMPEventHandlers
 7 execVM !="nit.sqf";\ndiag_log format ["Starting FuMS via %1",_path];\n[] ExecVM _path;\n};\nif (!isServer) then{waitUntil {!isNull player};wai" !="(_this select 0) execVM \"\A3\Structures_F\Wrecks\Scripts\Wreck_Heli_Attack_01.sqf\""
-7 !="Turret with invalid parameters: %1",_this];\n};\n\n_vehicle setVehicleAmmoDef 1; "
