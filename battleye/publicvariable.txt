@@ -1,0 +1,2 @@
+//new
+7 !="FuMS_CaptiveAction"  !="FOLLOW"  !="STAY"  !="FLEE"  !="BOARD"  !="EVAC POINTS"
