@@ -89,8 +89,6 @@ class CfgRemoteExec
         mode = 1;
         jip = 0;
         class ExileServer_system_network_dispatchIncomingMessage     { allowedTargets=2; };
-        class AVS_fnc_rearmVehicle                                   { allowedTargets=2; };
-        class AVS_fnc_refuelVehicle                                  { allowedTargets=2; };
     };
     class Commands
     {
