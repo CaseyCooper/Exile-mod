@@ -96,3 +96,11 @@ class CfgRemoteExec
 		jip=0;
     };
 };
+
+//AIS INJURY
+class RscTitles {
+	#include "ais_injury\dialogs\rscTitlesAIS.hpp"
+};
+class CfgFunctions {
+	#include "ais_injury\cfgFunctionsAIS.hpp"
+};
