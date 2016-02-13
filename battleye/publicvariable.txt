@@ -1,0 +1,3 @@
+//new
+7 !="FuMS_CaptiveAction"  !="FOLLOW"  !="STAY"  !="FLEE"  !="BOARD"  !="EVAC POINTS"
+7 append !"SAR_surv_kill_value" !"SAR_band_kill_value" !"SAR_DEBUG" !"SAR_EXTREME_DEBUG" !"SAR_DETECT_HOSTILE" !"SAR_DETECT_INTERVAL" !"SAR_RESPECT_HOSTILE_LIMIT"
