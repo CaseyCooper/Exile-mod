@@ -4,7 +4,10 @@ class Mission
 	addOns[]=
 	{
 		"exile_client",
-		"a3_map_altis"
+		"Ryanzombies",
+		"ryanzombiesfunctions",
+		"a3_map_altis",
+		"A3_Characters_F"
 	};
 	addOnsAuto[]=
 	{
