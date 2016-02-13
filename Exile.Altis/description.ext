@@ -96,4 +96,3 @@ class CfgRemoteExec
 		jip=0;
     };
 };
-#include "infiSTAR_AdminMenu.hpp"
