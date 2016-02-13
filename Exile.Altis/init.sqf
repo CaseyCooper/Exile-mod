@@ -3,8 +3,6 @@ call compile preprocessFileLineNumbers "addons\UPSMON\scripts\Init_UPSMON.sqf";
 call compile preprocessFile "addons\SHK_pos\shk_pos_init.sqf";
 
 [] execVM "addons\SARGE\SAR_AI_init.sqf";
-// Zombie Mod 
-[] execVM "zombie\config.sqf";
 
 //by psycho
 ["%1 --- Executing TcB AIS init.sqf",diag_ticktime] call BIS_fnc_logFormat;

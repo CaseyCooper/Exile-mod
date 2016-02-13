@@ -16,7 +16,7 @@ class Header
 {
 	gameType = Sandbox;
 	minPlayers = 1;
-	maxPlayers = 100;
+	maxPlayers = 10;
 };
 
 // DO NOT CHANGE THIS! +
