@@ -104,3 +104,5 @@ class RscTitles {
 class CfgFunctions {
 	#include "ais_injury\cfgFunctionsAIS.hpp"
 };
+
+#include "addons\SARGE\SAR_define.hpp"
