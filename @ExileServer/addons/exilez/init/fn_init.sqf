@@ -105,8 +105,8 @@ HSet = [
 /* 1 Frequency */            180,                // time in seconds between each new zombie.
 /* 2 Vest group */           Nothing,            // Vest function defined in ZVest.sqf
 /* 3 Loot group */           Nothing,            // Loot function defined in ZLoot.sqf
-/* 4 Zombie group */         Easy,               // Group function defined in ZClasses.sqf
-/* 5 Avoid Territory */      true                // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
+/* 4 Zombie group */         Hard,               // Group function defined in ZClasses.sqf
+/* 5 Avoid Territory */      false                // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
 ];
 
 UseHorde                     = true;             // Use the horde spawner             
@@ -132,11 +132,11 @@ trigger3lootbox = compile preprocessFile "exilez\init\zmissionloot.sqf";
 Trigger_1 = [				 //Cities
 /* 0  Use this trigger */    True,               // Self - explanatory
 /* 1  Trigger Positions */   Cities,             // The name of the array used to list all trigger position in the TriggerPositions.sqf file
-/* 2  Max Zombies */         10,                 // The maximum number of zombies for that trigger.
+/* 2  Max Zombies */         35,                 // The maximum number of zombies for that trigger.
 /* 3  Activation Delay */    15,                 // The delay before the activation of the trigger.
 /* 4  Spawn Delay */         15,                 // The delay between each zombie spawn right after the activation until the Max group size is reached.
 /* 5  Respawn Delay */       60,                 // The respawn delay after the max group size was reached
-/* 6  Show Trigger On Map */ true,               // Put a marker at the location and radius of the trigger on the map
+/* 6  Show Trigger On Map */ false,               // Put a marker at the location and radius of the trigger on the map
 /* 7  Marker Color */        "ColorRed",         // Color of the trigger
 /* 8  MarkerBrush */         "Solid",            // "Solid","SolidFull","Horizontal","Vertical","Grid","FDiagonal","BDiagonal","DiagGrid","Cross","Border","SolidBorder"
 /* 9  Marker Alpha */        0.2,                // Alpha of the trigger *(0 is invisible 1 is opaque)

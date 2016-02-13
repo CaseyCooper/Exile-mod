@@ -60,8 +60,8 @@ Hard = [
 [fastCivilians,		10],
 [fastSoldiers,		5],
 [crawlers,			5],
-[spiders,			15]
-//[boss,			1]
+[spiders,			15],
+[boss,				1]
 ];
 
 Hardcore = [
