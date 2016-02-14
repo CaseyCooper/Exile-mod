@@ -2810,12 +2810,28 @@ class CfgSettings
 		 * change the loadout uniform)
 		 */
 		loadOut[] = 
+	class BambiSettings
+	{
+		loadOut[]=
 		{
+			"hlc_rifle_M4",
+			"acc_flashlight",
+			"hgun_Rook40_F",
+			"V_RebreatherB",
+			"B_Parachute",
+			"Helmet_VQI_HALO",
+			"G_Balaclava_blk",
+			2,"hlc_30rnd_556x45_EPR",
+			"Chemlight_green",
+			4,"16Rnd_9x21_Mag",
+			"ItemGPS",
 			"ItemCompass",
 			"ItemMap",
 			"Exile_Item_XM8",
 			"ItemRadio",
-			"Exile_Item_PlasticBottleFreshWater"
+			"Exile_Item_PlasticBottleFreshWater",
+			"Exile_Item_BBQSandwich",
+			"Exile_Item_InstaDoc",
 		};
 
 		/**
@@ -2842,7 +2858,7 @@ class CfgSettings
 		/**
 		 * Parachute drop height in meters. 
 		 */
-		parachuteDropHeight = 1000;
+		parachuteDropHeight = 1500;
 
 		/**
 		 * Number of minutes where a fresh spawned player remains in the
@@ -2912,7 +2928,7 @@ class CfgSettings
 		 * 50m  = Minimum
 		 * 200m = Maximum
 		 */
-		spawnRadius = 60;
+		spawnRadius = 80;
 
 		/**
 		 * Notify players that loot spawned for them
