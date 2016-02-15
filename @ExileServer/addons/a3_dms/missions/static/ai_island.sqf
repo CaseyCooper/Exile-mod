@@ -180,13 +180,13 @@ _missionObjs =
 ];
 
 // Define Mission Start message
-_msgStart = ['#FFFF00', "A large group of Admins have invaded the island and are drinking beer and eating cake"];
+_msgStart = ['#FFFF00', "A large group of Rednecks have invaded the island and are drinking beer and eating cake"];
 
 // Define Mission Win message
-_msgWIN = ['#0080ff',"Convicts have successfully killed the Admins and claimed all the cake and beer for themselves!"];
+_msgWIN = ['#0080ff',"Convicts have successfully killed the Rednecks and claimed all the cake and beer for themselves!"];
 
 // Define Mission Lose message
-_msgLOSE = ['#FF0000',"The Admins have finished their beer and cake and buggered off..."];
+_msgLOSE = ['#FF0000',"The Rednecks have finished their beer and cake and buggered off..."];
 
 // Define mission name (for map marker and logging)
 _missionName = "Ai Island";
