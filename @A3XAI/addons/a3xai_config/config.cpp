@@ -183,7 +183,7 @@ class CfgA3XAISettings {
 	removeExplosiveAmmo = 1;
 	
 	//if enabled, AI units suffer no damage from vehicle collisions. (Default: 1)
-	noCollisionDamage = 1;
+	noCollisionDamage = 0;
 	
 	//If enabled, AI killed by vehicle collisions will have their gear removed (Default: 1)
 	roadKillPenalty = 0;
@@ -224,10 +224,10 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/		
 
 	//Upper limit of dynamic spawns on map at once. Set to 0 to disable dynamic spawns (Default: 15)
-	maxDynamicSpawns = 20;
+	maxDynamicSpawns = 30;
 	
 	//Minimum time (in seconds) that must pass between dynamic spawns for each player (Default: 900)
-	timePerDynamicSpawn = 900;
+	timePerDynamicSpawn = 500;
 	
 	//Players offline for this amount of time (seconds) will have their last spawn timestamp reset (Default: 3600)
 	purgeLastDynamicSpawnTime = 3600;
@@ -280,7 +280,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/		
 
 	//Global maximum number of active AI air vehicle patrols. Set at 0 to disable (Default: 0).							
-	maxAirPatrols = 5;	
+	maxAirPatrols = 8;	
 	
 	//Probability of spawning Level 0/1/2/3 AI air vehicle patrol spawns. Probabilities should add up to 1.00		
 	levelChancesAir[] = {0.00,0.50,0.35,0.15};
@@ -314,7 +314,7 @@ class CfgA3XAISettings {
 	
 	//Number of infantry AI to paradrop if players are nearby when helicopter is investigating a waypoint, or if helicopter is reinforcing a dynamic AI spawn. Limited by number of cargo seats available in the vehicle. (Default: 3)
 	//Affects: Air vehicle patrols, air reinforcements.
-	paradropAmount = 3;
+	paradropAmount = 5;
 	
 	
 	/*	AI Land Vehicle patrol settings. These AI vehicles will randomly travel between different cities and towns.
@@ -325,7 +325,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/	
 
 	//Global maximum number of active AI land vehicle patrols. Set at 0 to disable (Default: 0).	
-	maxLandPatrols = 15;
+	maxLandPatrols = 20;
 	
 	//Probability of spawning Level 0/1/2/3 AI land vehicle spawns. Probabilities should add up to 1.00		
 	levelChancesLand[] = {0.00,0.50,0.35,0.15};
@@ -336,22 +336,12 @@ class CfgA3XAISettings {
 	
 	//Classnames of land vehicle types to use, with the maximum amount of each type to spawn.
 	landVehicleList[] = {
-		{"Exile_Car_Hatchback_Rusty1",5},
-		{"Exile_Car_Hatchback_Rusty2",5},
-		{"Exile_Car_Hatchback_Rusty3",5},
-		{"Exile_Car_Hatchback_Sport_Red",5},
-		{"Exile_Car_SUV_Red",5},
 		{"Exile_Car_Offroad_Rusty1",5},
 		{"Exile_Car_Offroad_Rusty2",5},
 		{"Exile_Car_Offroad_Rusty3",5},
 		{"Exile_Car_Offroad_Repair_Civillian",5},
 		{"Exile_Car_Offroad_Armed_Guerilla01",5},
-		{"Exile_Car_Strider",5},
-		{"Exile_Car_Hunter",5},
 		{"Exile_Car_Ifrit",5},
-		{"Exile_Car_Van_Black",5},
-		{"Exile_Car_Van_Box_Black",5},
-		{"Exile_Car_Van_Fuel_Black",5},
 		{"Exile_Car_Zamak",5},
 		{"Exile_Car_Tempest",5},
 		{"Exile_Car_HEMMT",5}
@@ -361,7 +351,7 @@ class CfgA3XAISettings {
 	landGunnerUnits = 2;
 	
 	//Maximum number of cargo units per land vehicle. Limited by actual number of available cargo positions. (Default: 3)
-	landCargoUnits = 3;
+	landCargoUnits = 5;
 	
 	
 	/*	AI Air Reinforcement Settings
@@ -409,7 +399,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/
 
 	//Global maximum number of active UAV patrols. Set at 0 to disable (Default: 0).	
-	maxUAVPatrols = 0;
+	maxUAVPatrols = 5;
 	
 	//Classnames of UAV types to use, with the maximum amount of each type to spawn.
 	UAVList[] = {
@@ -429,7 +419,7 @@ class CfgA3XAISettings {
 	respawnUAVMaxTime = 900;
 	
 	//Set to '1' to set detection-only behavior (UAV will not directly engage enemies). (Default: 0)
-	detectOnlyUAVs = 0;
+	detectOnlyUAVs = 1;
 	
 	//Cooldown required in between air reinforcement summons when detecting players. Value in seconds. (Default: 1800)
 	UAVCallReinforceCooldown = 1800;
