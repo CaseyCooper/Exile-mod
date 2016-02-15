@@ -90,6 +90,11 @@ class CfgMusic
     };
 };
 
+class RscTitles
+{
+	#include "addons\statusBar\statusBar.hpp"
+};
+
 #include "config.cpp"
 #include "CfgRemoteExec.hpp"
 #include "infiSTAR_Exile_AdminMenu.hpp"
