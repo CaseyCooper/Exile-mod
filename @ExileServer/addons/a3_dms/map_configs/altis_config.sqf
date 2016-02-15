@@ -31,7 +31,7 @@ DMS_MinDistFromNorthBorder			= 5200;	// There's around 5km of ocean from the nor
 
 
 // Add the "saltflats" and "slums" mission to the existing mission types.
-DMS_StaticMissionTypes append [["saltflats",1],["slums",1]];
+DMS_StaticMissionTypes append [["saltflats",1],["slums",1],["ai_island",1]];
 
 // Add the "salt flats base" and "slums" to the "bases" to spawn on server startup. NOTE: "append" and "pushback" are NOT the same.
-DMS_BasesToImportOnServerStart append ["saltflatsbase","slums_objects"];
+DMS_BasesToImportOnServerStart append ["saltflatsbase","slums_objects","ai_island_buildings","ai_island_bridge"];
