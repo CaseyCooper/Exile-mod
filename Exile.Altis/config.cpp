@@ -1749,6 +1749,13 @@ class CfgExileArsenal
 	// Zamak
 	///////////////////////////////////////////////////////////////////////////////
 	class Exile_Car_Zamak 								{ quality = 1; price = 43000; };
+	
+	///////////////////////////////////////////////////////////////////////////////
+	// Custom
+	///////////////////////////////////////////////////////////////////////////////
+	class B_MRAP_01_hmg_F 								{ quality = 1; price = 55000; };
+	class B_MRAP_01_gmg_F 								{ quality = 1; price = 75000; };
+	class B_Heli_Light_01_armed_F 						{ quality = 1; price = 100000; };
 };
 class CfgExileCustomCode 
 {
@@ -3435,6 +3442,8 @@ class CfgTraderCategories
 			"Exile_Car_Offroad_Armed_Guerilla01",
 			"Exile_Car_Strider",
 			"Exile_Car_Hunter",
+			"B_MRAP_01_gmg_F",
+			"B_MRAP_01_hmg_F",
 			"Exile_Car_Ifrit"
 		};
 	};
@@ -3471,7 +3480,8 @@ class CfgTraderCategories
 			"Exile_Chopper_Orca_BlackCustom",
 			"Exile_Chopper_Mohawk_FIA",
 			"Exile_Chopper_Huron_Black",
-			"Exile_Chopper_Hellcat_Green"
+			"Exile_Chopper_Hellcat_Green",
+			"B_Heli_Light_01_armed_F"
 		};
 	};
 
