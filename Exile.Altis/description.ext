@@ -80,22 +80,6 @@ enableDebugConsole = 0; // 2 = dangerous in MP
 // NO NO NO
 allowFunctionsRecompile = 0;
 
-#include "config.cpp"
-
-class CfgRemoteExec
-{
-    class Functions
-    {
-        mode = 1;
-        jip = 0;
-        class ExileServer_system_network_dispatchIncomingMessage     { allowedTargets=2; };
-    };
-    class Commands
-    {
-		mode=0;
-		jip=0;
-    };
-};
 class CfgMusic
 {
     tracks[] = {}; 
@@ -105,13 +89,7 @@ class CfgMusic
         sound[] = {"\custom\IntroSong.ogg", db+1,1};
     };
 };
-//bAdmin dialog includes
 
-#include "badmin\client\gui_base.hpp"
-#include "badmin\client\systems\common.hpp"
-#include "badmin\client\systems\adminPanel\dialog\adminMenu.hpp"
-#include "badmin\client\systems\adminPanel\dialog\modMenu.hpp"
-#include "badmin\client\systems\adminPanel\dialog\serverAdminMenu.hpp"
-#include "badmin\client\systems\adminPanel\dialog\debugMenu.hpp"
-#include "badmin\client\systems\adminPanel\dialog\shopMenu.hpp"
-#include "badmin\client\systems\adminPanel\dialog\playerMenu.hpp"
+#include "config.cpp"
+#include "CfgRemoteExec.hpp"
+#include "infiSTAR_Exile_AdminMenu.hpp"
