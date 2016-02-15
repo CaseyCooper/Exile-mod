@@ -61,8 +61,8 @@ _Ryanzombiescanthrowtankdemon          = 1;	     //Enable or disable Throwing ta
 _Ryanzombiescanthrowdistancedemon      = 50;	 //Max throw distance demon
 _Ryanzombiescanthrowtankdistancedemon  = 10;     //Max throw distance for tanks      
                                                  
-_ryanzombiesdisablemoaning             = 1;     // No idle sound
-_ryanzombiesdisableaggressive          = 1;     // No aggressive sounds
+_ryanzombiesdisablemoaning             = -1;     // No idle sound
+_ryanzombiesdisableaggressive          = -1;     // No aggressive sounds
 _ryanzombiescivilianattacks            = -1;     // Attack civilians
 _Ryanzombieslogicroam                  = 1;      // Roam ***roaming can be heavy on cpu
 _Ryanzombieslogicroamdemon             = 1;     // Demon Roam
