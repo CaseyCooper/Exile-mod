@@ -34,7 +34,7 @@ DMS_Use_Map_Config = true;	// Whether or not to use config overwrites specific t
 
 	/*General settings for static missions*/
 	DMS_StaticMission					= true;						// Enable/disable static mission system.
-	DMS_MaxStaticMissions				= 3;						// Maximum number of Static Missions running at the same time. It's recommended you set this to the same amount of static missions that you have in total.
+	DMS_MaxStaticMissions				= 1;						// Maximum number of Static Missions running at the same time. It's recommended you set this to the same amount of static missions that you have in total.
 	DMS_TimeToFirstStaticMission		= [180,420];				// [Minimum,Maximum] time between first static mission spawn. | DEFAULT: 3-7 minutes.
 	DMS_TimeBetweenStaticMissions		= [900,1800];				// [Minimum,Maximum] time between static missions (if static mission limit is not reached) | DEFAULT: 15-30 mins
 	DMS_StaticMissionTimeOut			= [1800,3600]; 				// [Minimum,Maximum] time it will take for a static mission to timeout | DEFAULT: 30-60 mins
@@ -200,16 +200,11 @@ DMS_Use_Map_Config = true;	// Whether or not to use config overwrites specific t
 	
 
 	DMS_StaticMissionTypes =			[							// List of STATIC missions with spawn chances.
-										["ai_island",1],
-										["ai_island_buildings",1],
-										["saltflats",1]
 											
 										];
 
 	DMS_BasesToImportOnServerStart = 	[							// List of static bases to import on server startup (spawned post-init). This will reduce the amount of work the server has to do when it actually spawns static missions, and players won't be surprised when a base suddenly pops up. You can also include any other M3E-exported bases to spawn here.
-										["ai_island_bridge,1],
-										["saltflatbase",1]
-	
+
 										];
 
 
