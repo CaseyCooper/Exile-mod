@@ -488,3 +488,6 @@ _chair setPosATL [23379.6, 24169.3, 4.56662];
     _chair
 ]
 call ExileClient_object_trader_create;
+
+// Welcome Credits by Gr8
+[] execVM "custom\welcome.sqf";
