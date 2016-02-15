@@ -34,3 +34,6 @@ OPEN_bADMIN_FNC = {
 
 waituntil {!isnull (finddisplay 46)};
 (findDisplay 46) displayAddEventHandler ["KeyDown","_this select 1 call OPEN_bADMIN_FNC;false;"];
+
+//color correction
+[] execVM "effect.sqf";
