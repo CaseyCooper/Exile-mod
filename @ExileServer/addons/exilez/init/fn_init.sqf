@@ -24,13 +24,13 @@ LightsOff                    = true;             // Kill all the light on map ex
 ExplosiveZombies             = true;             // randomly boobie trapped zombies exploding a few seconds after dying.
 ExplosiveZombiesRatio        = 2;                // percentage of explosive zombies
 ExplosiveZombieWarning       = "IT'S A TRAP !!!";// Message that will display a few seconds before the explosion of a zombie.
-ExplosionDelay               = 3;                // self-explanatory
+ExplosionDelay               = 4;                // self-explanatory
 ExplosiveType                = "Grenade" ;       // "mini_Grenade" for small almost non-lethal explision or "Grenade" Big and dangerous explosion.
 ExplosiveRespect             = 100;              // Bonus respect for Exploding zombies
 
 //Killing zombies settings
-ZombieMoney                  = 10;                // Money per zombie kill
-ZombieRespect                = 10;               // Respect per zombie kill
+ZombieMoney                  = 25;               // Money per zombie kill
+ZombieRespect                = 30;               // Respect per zombie kill
 RoadKillBonus                = 10;               // Bonus Respect if roadkill
 MinDistance                  = 50;               // Minimal distance for range bonus
 CqbDistance                  = 10;               // Minimal ditance for close quarter bonus
@@ -61,19 +61,19 @@ _Ryanzombiescanthrowtankdemon          = 1;	     //Enable or disable Throwing ta
 _Ryanzombiescanthrowdistancedemon      = 50;	 //Max throw distance demon
 _Ryanzombiescanthrowtankdistancedemon  = 10;     //Max throw distance for tanks      
                                                  
-_ryanzombiesdisablemoaning             = -1;     // No idle sound
-_ryanzombiesdisableaggressive          = -1;     // No aggressive sounds
+_ryanzombiesdisablemoaning             = 1;     // No idle sound
+_ryanzombiesdisableaggressive          = 1;     // No aggressive sounds
 _ryanzombiescivilianattacks            = -1;     // Attack civilians
 _Ryanzombieslogicroam                  = 1;      // Roam ***roaming can be heavy on cpu
-_Ryanzombieslogicroamdemon             = -1;     // Demon Roam
+_Ryanzombieslogicroamdemon             = 1;     // Demon Roam
                                                  
 _Ryanzombiesjump                       = -1;     //Jumping Zombies
 _Ryanzombiesjumpdemon                  = 1;      //Jumping Demons
                                                  
-_Ryanzombiesfeed                       = -1;     //Feeding Zombies
+_Ryanzombiesfeed                       = 1;     //Feeding Zombies
 _Ryanzombiesfeeddemon                  = 1;      //Feeding Demons
                                                  
-_Ryanzombiesinfection                  = 1;      //Enable infections *(-1 to disable)
+_Ryanzombiesinfection                  = -1;      //Enable infections *(-1 to disable)
 _ryanzombiesinfectedchance             = 10;     //Precent chances to be infected on hit
 _ryanzombiesinfectedrate               = 0.05;   //Damage per minute when infected (+/- 30 minutes to live)
 _ryanzombiesinfectedsymptoms           = 0.9;    //Symptomes showed when infected 0.9 = Normal 0.7 = Less 0.5 = None
@@ -101,18 +101,18 @@ SafeZonePositions =
 UseHarassingZombies          = true;             //
 
 HSet = [
-/* 0 Groups Size  */         2,                  // maximum number of zombies around a player
+/* 0 Groups Size  */         5,                  // maximum number of zombies around a player
 /* 1 Frequency */            180,                // time in seconds between each new zombie.
 /* 2 Vest group */           Nothing,            // Vest function defined in ZVest.sqf
 /* 3 Loot group */           Nothing,            // Loot function defined in ZLoot.sqf
 /* 4 Zombie group */         Hard,               // Group function defined in ZClasses.sqf
-/* 5 Avoid Territory */      false                // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
+/* 5 Avoid Territory */      true                // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
 ];
 
 UseHorde                     = true;             // Use the horde spawner             
 
 HordeSet = [
-/* 0 Groups Size  */         15,                 // maximum number of zombies around a player
+/* 0 Groups Size  */         25,                 // maximum number of zombies around a player
 /* 1 Min Frequency */        20,                 // min time in minutes between each new zombie horde.
 /* 2 Max Frequency */        60,                 // max time in minutes between each new zombie horde.
 /* 3 Vest group */           Basic,              // Vest function defined in ZVest.sqf
