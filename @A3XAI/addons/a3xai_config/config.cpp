@@ -186,7 +186,7 @@ class CfgA3XAISettings {
 	noCollisionDamage = 1;
 	
 	//If enabled, AI killed by vehicle collisions will have their gear removed (Default: 1)
-	roadKillPenalty = 1;
+	roadKillPenalty = 0;
 	
 	//Array of positions defining trader locations. AI will be non-hostile and damage immune around this area.
 	//Use this if your server is not using the standard Exile trader markers or sensors in mission.sqm
@@ -202,7 +202,7 @@ class CfgA3XAISettings {
 	
 	//Enable or disable static AI spawns. If enabled, AI spawn points will be generated in cities, towns, and other named areas.
 	//Enabled: A3XAI automatically generates static spawns at named locations on map. Disabled: No static spawns will be generated. (Default: 1)
-	enableStaticSpawns = 1;
+	enableStaticSpawns = 5;
 	
 	//Set minimum and maximum wait time (seconds) to respawn an AI group after all units have been killed. Applies to both static AI and custom spawned AI (Default: Min 300, Max 600).									
 	respawnTimeMin = 300;
@@ -224,7 +224,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/		
 
 	//Upper limit of dynamic spawns on map at once. Set to 0 to disable dynamic spawns (Default: 15)
-	maxDynamicSpawns = 15;
+	maxDynamicSpawns = 20;
 	
 	//Minimum time (in seconds) that must pass between dynamic spawns for each player (Default: 900)
 	timePerDynamicSpawn = 900;
@@ -263,7 +263,7 @@ class CfgA3XAISettings {
 	vehicleDespawnTime = 600;
 	
 	//Enable player use of AI vehicles. Players must either disable the vehicle or kill all units of the group in order to access the vehicle. (Default: 0)
-	vehiclesAllowedForPlayers = 0;
+	vehiclesAllowedForPlayers = 1;
 	
 	//Add name of location as displayed on map prevent AI vehicle patrols from travelling to these locations. Location names are case-sensitive. Note: Vehicles may still pass through these areas
 	//Example: waypointBlacklistAir[] = {"Aggelochori","Panochori","Zaros"};
@@ -280,7 +280,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/		
 
 	//Global maximum number of active AI air vehicle patrols. Set at 0 to disable (Default: 0).							
-	maxAirPatrols = 2;	
+	maxAirPatrols = 5;	
 	
 	//Probability of spawning Level 0/1/2/3 AI air vehicle patrol spawns. Probabilities should add up to 1.00		
 	levelChancesAir[] = {0.00,0.50,0.35,0.15};
@@ -325,7 +325,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/	
 
 	//Global maximum number of active AI land vehicle patrols. Set at 0 to disable (Default: 0).	
-	maxLandPatrols = 10;
+	maxLandPatrols = 15;
 	
 	//Probability of spawning Level 0/1/2/3 AI land vehicle spawns. Probabilities should add up to 1.00		
 	levelChancesLand[] = {0.00,0.50,0.35,0.15};
