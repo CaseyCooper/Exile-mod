@@ -36,6 +36,13 @@ try
 	{
 		throw false; 
 	};
+//these next 6 lines add the wreck classes to the spawnable buildings array for the heliCrashes
+	_truckWrecks = _playerPosition nearObjects ["Land_Wreck_HMMWV_F", _spawnRadius];
+	_buildings append _truckWrecks;
+	_heliwrecks2 = _playerPosition nearObjects ["Land_UWreck_Heli_Attack_02_F", _spawnRadius];
+	_buildings append _heliwrecks2;
+	_heliWrecks1 = _playerPosition nearObjects ["Land_Wreck_Heli_Attack_01_F", _spawnRadius];
+	_buildings append _heliWrecks1;
 	if !(vehicle _playerObject isEqualTo _playerObject) then
 	{
 		throw false;
