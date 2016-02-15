@@ -103,7 +103,7 @@ class CfgA3XAISettings {
 
 
 	//Enable or disable radio message receiving. Players with radios or part of a group with at least one radio will be able to intercept some AI communications. (Default: 0)
-	enableRadioMessages = 0;
+	enableRadioMessages = 1;
 
 
 	/*	Shared AI Unit Settings. These settings affect all AI spawned unless noted otherwise.
@@ -122,31 +122,31 @@ class CfgA3XAISettings {
 	chanceScalingThreshold = 0.50;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_village = 1;
+	minAI_village = 5;
 	addAI_village = 1;
 	unitLevel_village = 0;
 	spawnChance_village = 0.40;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_city = 1;
+	minAI_city = 5;
 	addAI_city = 2;
 	unitLevel_city = 1;
 	spawnChance_city = 0.60;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_capitalCity = 2;
+	minAI_capitalCity = 8;
 	addAI_capitalCity = 1;
 	unitLevel_capitalCity = 1;
 	spawnChance_capitalCity = 0.70;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_remoteArea = 1;
+	minAI_remoteArea = 5;
 	addAI_remoteArea = 2;
 	unitLevel_remoteArea = 2;
 	spawnChance_remoteArea = 0.80;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_wilderness = 1;
+	minAI_wilderness = 5;
 	addAI_wilderness = 2;
 	unitLevel_wilderness = 1;
 	spawnChance_wilderness = 0.50;
