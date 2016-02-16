@@ -14,7 +14,7 @@ _Delay                = 10; // Wait in seconds before the credits start after pl
 _FadeIn             = 3; //how long one role should stay on screen. Use value from 0 to 10 where 0 is almost instant transition to next role
 
 
-_IntroMusic            = false; // Welcome Intro Song During the credits (true or false)
+_IntroMusic            = true; // Welcome Intro Song During the credits (true or false)
 
 
 _posDefault         = [0.3,0.55,0.5]; // Defualt Positions of all Credits
@@ -37,7 +37,7 @@ _shorttext3     = "162.248.241.98";
 _posText3        = [0.8,0.5,0.25];
 
 
-_title4         = "Thanks!!!!";
+_title4         = "Thanks";
 _shorttext4     = "Thanks to the Exile Devs and Community for the Addons and Scripts";
 _posText4        = [0.8,0.5,0.28];
 
