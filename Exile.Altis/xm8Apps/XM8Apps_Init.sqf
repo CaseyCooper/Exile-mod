@@ -28,11 +28,12 @@ app1_action = {
 };
 
 //App 2
-_app2Text = "App 2";
-_app2Logo = "";
-app2_action = {
-
+_app1Text = "View Distance";
+_app1Logo = getText (configfile >> "CfgWeapons" >> "Binocular" >> "picture");
+app1_action = {
+  execVM "xm8Apps\Apps\View Distance\VeiwDistance.sqf";
 };
+
 
 //App 3
 _app3Text = "App 3";
