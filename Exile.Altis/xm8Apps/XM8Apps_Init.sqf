@@ -36,10 +36,10 @@ app1_action = {
 
 
 //App 3
-_app3Text = "App 3";
-_app3Logo = "";
-app3_action = {
-
+_app1Text = "Player Scan";
+_app1Logo = "xm8Apps\Apps\Player scan\radarLogo.paa";
+app1_action = {
+  execVM "xm8Apps\Apps\Player scan\playerScan.sqf";
 };
 
 //App 4
