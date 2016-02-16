@@ -41,7 +41,7 @@ _app1Logo = "xm8Apps\Apps\Player scan\radarLogo.paa";
 app1_action = {
   execVM "xm8Apps\Apps\Player scan\playerScan.sqf";
 };
-
+/*
 //App 4
 _app4Text = "App 4";
 _app4Logo = "";
@@ -97,6 +97,7 @@ _app11Logo = "";
 app11_action = {
 
 };
+*/
 
 //App 12
 //NOTICE by default the app 12 button is used to go back to the main menu. if you change this you will need to give player a way to return to the main menu
