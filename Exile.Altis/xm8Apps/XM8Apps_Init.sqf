@@ -21,10 +21,10 @@ If you want to change what button the XM8 Apps appears on edit ExileClient_gui_x
 
 
 //App 1
-_app1Text = "App 1";
-_app1Logo = "";
+_app1Text = "Player Stats";
+_app1Logo = "xm8Apps\Apps\Player Stats\Stats_IconWhite.paa";
 app1_action = {
-
+  execVM"xm8Apps\Apps\Player Stats\PlayerStats.sqf";
 };
 
 //App 2
