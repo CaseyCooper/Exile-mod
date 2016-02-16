@@ -15,7 +15,7 @@ class CfgA3XAISettings {
 	
 	//Enable or disable event logging to the server RPT file (named arma3server_[date]_[time].rpt). Debug level setting. 0: No debug output, 1: Basic Debug output, 2: Detailed Debug output. (Default: 0)
 	//Debug output may help finding additional information about A3XAI's background behavior. This output is helpful when asking for help regarding bugs or unexpected behaviors.
-	debugLevel = 1;
+	debugLevel = 2;
 	
 	//Frequency of server monitor update to RPT log in seconds. The monitor periodically reports number of max/current AI units and dynamically spawned triggers into RPT log. (Default: 300, 0 = Disable reporting)											
 	monitorReportRate = 300;
@@ -122,31 +122,31 @@ class CfgA3XAISettings {
 	chanceScalingThreshold = 0.50;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_village = 5;
+	minAI_village = 3;
 	addAI_village = 1;
 	unitLevel_village = 0;
 	spawnChance_village = 0.40;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_city = 5;
+	minAI_city = 3;
 	addAI_city = 2;
 	unitLevel_city = 1;
 	spawnChance_city = 0.60;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_capitalCity = 8;
+	minAI_capitalCity = 5;
 	addAI_capitalCity = 1;
 	unitLevel_capitalCity = 1;
 	spawnChance_capitalCity = 0.70;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_remoteArea = 5;
+	minAI_remoteArea = 3;
 	addAI_remoteArea = 2;
 	unitLevel_remoteArea = 2;
 	spawnChance_remoteArea = 0.80;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_wilderness = 5;
+	minAI_wilderness = 3;
 	addAI_wilderness = 2;
 	unitLevel_wilderness = 1;
 	spawnChance_wilderness = 0.50;
@@ -202,7 +202,7 @@ class CfgA3XAISettings {
 	
 	//Enable or disable static AI spawns. If enabled, AI spawn points will be generated in cities, towns, and other named areas.
 	//Enabled: A3XAI automatically generates static spawns at named locations on map. Disabled: No static spawns will be generated. (Default: 1)
-	enableStaticSpawns = 5;
+	enableStaticSpawns = 3;
 	
 	//Set minimum and maximum wait time (seconds) to respawn an AI group after all units have been killed. Applies to both static AI and custom spawned AI (Default: Min 300, Max 600).									
 	respawnTimeMin = 300;
@@ -224,7 +224,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/		
 
 	//Upper limit of dynamic spawns on map at once. Set to 0 to disable dynamic spawns (Default: 15)
-	maxDynamicSpawns = 30;
+	maxDynamicSpawns = 20;
 	
 	//Minimum time (in seconds) that must pass between dynamic spawns for each player (Default: 900)
 	timePerDynamicSpawn = 500;
@@ -280,7 +280,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/		
 
 	//Global maximum number of active AI air vehicle patrols. Set at 0 to disable (Default: 0).							
-	maxAirPatrols = 8;	
+	maxAirPatrols = 5;	
 	
 	//Probability of spawning Level 0/1/2/3 AI air vehicle patrol spawns. Probabilities should add up to 1.00		
 	levelChancesAir[] = {0.00,0.50,0.35,0.15};
@@ -325,7 +325,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/	
 
 	//Global maximum number of active AI land vehicle patrols. Set at 0 to disable (Default: 0).	
-	maxLandPatrols = 20;
+	maxLandPatrols = 13;
 	
 	//Probability of spawning Level 0/1/2/3 AI land vehicle spawns. Probabilities should add up to 1.00		
 	levelChancesLand[] = {0.00,0.50,0.35,0.15};
@@ -351,7 +351,7 @@ class CfgA3XAISettings {
 	landGunnerUnits = 2;
 	
 	//Maximum number of cargo units per land vehicle. Limited by actual number of available cargo positions. (Default: 3)
-	landCargoUnits = 5;
+	landCargoUnits = 3;
 	
 	
 	/*	AI Air Reinforcement Settings
@@ -399,7 +399,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/
 
 	//Global maximum number of active UAV patrols. Set at 0 to disable (Default: 0).	
-	maxUAVPatrols = 5;
+	maxUAVPatrols = 0;
 	
 	//Classnames of UAV types to use, with the maximum amount of each type to spawn.
 	UAVList[] = {
