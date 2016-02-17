@@ -3,3 +3,6 @@
 
 //EXICUTE GROUNDFOG.SQF
 //_GF = [] execVM "addons\scripts\ground_fog.sqf";
+
+//Water Crates Missions
+[] execVM "addons\scripts\watercrate.sqf";
