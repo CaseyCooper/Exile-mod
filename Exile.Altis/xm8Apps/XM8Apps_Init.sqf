@@ -50,10 +50,10 @@ app4_action = {
 };
 
 //App 5
-_app5Text = "App 5";
+_app5Text = "CRFT Info";
 _app5Logo = "";
 app5_action = {
-
+execVM"xm8Apps\Apps\rules\rules.sqf";
 };
 
 //App 6

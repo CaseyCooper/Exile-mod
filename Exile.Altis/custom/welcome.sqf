@@ -10,8 +10,8 @@ _fontTitle             = "PuristaSemibold"; // Font Type Of Title Messages
 _fontSubText        = "PuristaLight"; // Font Type Of SubTitle Messages
 
 
-_Delay                = 10; // Wait in seconds before the credits start after player IS ingame
-_FadeIn             = 3; //how long one role should stay on screen. Use value from 0 to 10 where 0 is almost instant transition to next role
+_Delay                = 15; // Wait in seconds before the credits start after player IS ingame
+_FadeIn             = 5; //how long one role should stay on screen. Use value from 0 to 10 where 0 is almost instant transition to next role
 
 
 _IntroMusic            = true; // Welcome Intro Song During the credits (true or false)
@@ -32,8 +32,8 @@ _shorttext2     = "www.crftgaming.org";
 _posText2        = [0.8,0.5,0.25];
 
 
-_title3            = "Teamspeak 3";
-_shorttext3     = "162.248.241.98";
+_title3            = "XM8 Tablet 6 Key";
+_shorttext3     = "Check the apps section on the tablet for rules and info";
 _posText3        = [0.8,0.5,0.25];
 
 
