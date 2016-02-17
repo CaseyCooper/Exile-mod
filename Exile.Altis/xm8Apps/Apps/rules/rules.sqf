@@ -34,7 +34,9 @@ _message = _message + "<t align='center' size='1' shadow='0'><t color='#ff9900'>
 _message = _message + "<t color='#ff9900'>6</t> : XM8<br />";
 _message = _message + "<t color='#ff9900'>5</t> : Lower Sound<br />";
 _message = _message + "<t color='#ff9900'>4</t> : Holster and Unholster weapon<br /><br />";
-_message = _message + "<t color='#ff9900'>3,2,1</t> : Building keys<br /><br />";
+_message = _message + "<t color='#ff9900'>3</t> : Switch to launcher slot <br /><br />";
+_message = _message + "<t color='#ff9900'>2</t> : Switch to handgun<br /><br />";
+_message = _message + "<t color='#ff9900'>1</t> : Switch to rifle<br /><br />";
 _message = _message + "<t color='#ff9900'>0</t> : Auto Run<br /><br />";
 _message = _message + "______________________________________________________________________________________<br /><br />";
 _message = _message + "<t align='center' size='1' shadow='0'><t color='#ff9900'>Rules:</t><br />";

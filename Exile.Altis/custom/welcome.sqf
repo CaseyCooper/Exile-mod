@@ -1,7 +1,7 @@
 if(isDedicated) exitWith {};
 
-_sizeTitle             = 0.55; // Font Size of the Title Messages
-_sizeSubText         = 0.45;  // Font Size of the SubTitle Messages
+_sizeTitle             = 0.65; // Font Size of the Title Messages
+_sizeSubText         = 0.55;  // Font Size of the SubTitle Messages
 _colorTitle         = "#0969ee"; // HTML Color Code of the Title Messages (must start with '#' )
 _colorSubText         = "#1cee09"; // HTML Color Code of the SubTitle Messages (must start with '#' )
 _alignTitle         = "left"; // Alignment of the Title Message (right or left)
@@ -32,8 +32,8 @@ _shorttext2     = "www.crftgaming.org";
 _posText2        = [0.8,0.5,0.25];
 
 
-_title3            = "XM8 Tablet 6 Key";
-_shorttext3     = "Check the apps section on the tablet for rules and info";
+_title3            = "XM8 Tablet";
+_shorttext3     = "Press the 6 key to access table for server info";
 _posText3        = [0.8,0.5,0.25];
 
 
