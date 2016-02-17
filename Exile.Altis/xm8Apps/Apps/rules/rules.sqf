@@ -34,6 +34,7 @@ _message = _message + "<t align='center' size='1' shadow='0'><t color='#ff9900'>
 _message = _message + "<t color='#ff9900'>6</t> : XM8<br />";
 _message = _message + "<t color='#ff9900'>5</t> : Lower Sound<br />";
 _message = _message + "<t color='#ff9900'>4</t> : Holster and Unholster weapon<br /><br />";
+message = _message + "<t color='#ff9900'>3,2,1</t> : Building keys<br /><br />";
 _message = _message + "<t color='#ff9900'>0</t> : Auto Run<br /><br />";
 _message = _message + "______________________________________________________________________________________<br /><br />";
 _message = _message + "<t align='center' size='1' shadow='0'><t color='#ff9900'>Rules:</t><br />";
@@ -44,7 +45,7 @@ _message = _message + "- No building in military zones, across roads, or close t
 _message = _message + "- No camping outside safezones, stealing vehicles inside savezones, or harassing people inside safezones<br /><br />";
 _message = _message + "- No racism, arguing over sidechat, talking in sidechat, or general harassment</t><br /><br />";
 _message = _message + "- No raiding established territories</t><br /><br />";
-_message = _message + "- PvP & PvE welcome as long as rules are followed</t><br /><br />";
+_message = _message + "- PvP and PvE welcome as long as rules are followed</t><br /><br />";
 _message = _message + "Sincerely, <a color='#ff9900'>CRFTGaming</a><br /><br />";
 
 
