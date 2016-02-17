@@ -33,7 +33,7 @@ _posText2        = [0.8,0.5,0.25];
 
 
 _title3            = "XM8 Tablet";
-_shorttext3     = "Press the 6 key to access table for server info";
+_shorttext3     = "Press the 6 key to access tablet for server info";
 _posText3        = [0.8,0.5,0.25];
 
 
