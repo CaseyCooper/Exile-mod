@@ -1612,11 +1612,19 @@ class CfgExileArsenal
 	// HEMMT
 	///////////////////////////////////////////////////////////////////////////////
 	class Exile_Car_HEMMT 								{ quality = 1; price = 48000; };
+	class B_Truck_01_covered_F							{ quality = 1; price = 50000; };
+	class B_Truck_01_box_F								{ quality = 1; price = 50000; };
+	class B_Truck_01_fuel_F								{ quality = 1; price = 55000; };
+	class B_Truck_01_medical_F							{ quality = 1; price = 60000; };
+	class B_Truck_01_Repair_F							{ quality = 1; price = 85000; };
+	class B_Truck_01_ammo_F								{ quality = 1; price = 100000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hunter
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Car_Hunter 								{ quality = 1; price = 26500; };
+	class Exile_Car_Hunter 								{ quality = 1; price = 25000; };
+	class B_MRAP_01_hmg_F 								{ quality = 1; price = 55000; };
+	class B_MRAP_01_gmg_F 								{ quality = 1; price = 75000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Ifrit
@@ -1749,13 +1757,20 @@ class CfgExileArsenal
 	// Zamak
 	///////////////////////////////////////////////////////////////////////////////
 	class Exile_Car_Zamak 								{ quality = 1; price = 43000; };
+	class O_Truck_02_fuel_F								{ quality = 1; price = 55000; };
+	class O_Truck_02_medical_F							{ quality = 1; price = 60000; };
+	class O_Truck_02_box_F								{ quality = 1; price = 85000; };
+	class O_Truck_02_Ammo_F								{ quality = 1; price = 100000; };
 	
 	///////////////////////////////////////////////////////////////////////////////
-	// Custom
+	// Armed Helis
 	///////////////////////////////////////////////////////////////////////////////
-	class B_MRAP_01_hmg_F 								{ quality = 1; price = 55000; };
-	class B_MRAP_01_gmg_F 								{ quality = 1; price = 75000; };
-	class B_Heli_Light_01_armed_F 						{ quality = 1; price = 100000; };
+	class B_Heli_Light_01_armed_F 						{ quality = 1; price = 90000; };
+	class O_Heli_Light_02_F								{ quality = 1; price = 100000; };
+	class B_Heli_Transport_01_F 						{ quality = 1; price = 100000; };
+	class B_Heli_Transport_01_camo_F					{ quality = 1; price = 100000; };
+	class B_Heli_Transport_03_black_F					{ quality = 1; price = 250000; };
+	
 };
 class CfgExileCustomCode 
 {
@@ -3408,7 +3423,7 @@ class CfgTraderCategories
 
 	class Cars
 	{
-		name = "Cars";
+		name = "Civ Vehicles";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
@@ -3426,28 +3441,44 @@ class CfgTraderCategories
 			"Exile_Car_Offroad_Rusty2",
 			"Exile_Car_Offroad_Rusty3",
 			"Exile_Car_Offroad_Repair_Civillian",
-			"Exile_Car_Offroad_Armed_Guerilla01",
-			"Exile_Car_Strider",
-			"Exile_Car_Hunter",
-			"B_MRAP_01_gmg_F",
-			"B_MRAP_01_hmg_F",
-			"Exile_Car_Ifrit"
+			"Exile_Car_Van_Black",
+			"Exile_Car_Van_Box_Black",
+			"Exile_Car_Van_Fuel_Black",
+			"Exile_Car_Ikarus_Blue"
 		};
 	};
 
 	class Trucks
 	{
-		name = "Trucks";
+		name = "Military Vehicles";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
-			"Exile_Car_Van_Black",
-			"Exile_Car_Van_Box_Black",
-			"Exile_Car_Van_Fuel_Black",
-			"Exile_Car_Zamak",
+			//Trucks
+			"Exile_Car_Offroad_Armed_Guerilla01",
+			//Stryder
+			"Exile_Car_Strider",
+			//Hunter
+			"Exile_Car_Hunter",
+			"B_MRAP_01_hmg_F",
+			"B_MRAP_01_gmg_F",
+			//Tempest
 			"Exile_Car_Tempest",
+			//Zamak
+			"Exile_Car_Zamak",
+			"O_Truck_02_fuel_F",
+			"O_Truck_02_medical_F",
+			"O_Truck_02_box_F",
+			"O_Truck_02_Ammo_F",
+			//Hemmt
 			"Exile_Car_HEMMT",
-			"Exile_Car_Ikarus_Blue",
+			"B_Truck_01_covered_F",
+			"B_Truck_01_box_F",
+			"B_Truck_01_fuel_F",
+			"B_Truck_01_medical_F",
+			"B_Truck_01_Repair_F",
+			"B_Truck_01_ammo_F",
+			//Ural
 			"Exile_Car_Ural_Open_Worker",
 			"Exile_Car_Ural_Covered_Worker"
 		};
@@ -3468,7 +3499,12 @@ class CfgTraderCategories
 			"Exile_Chopper_Mohawk_FIA",
 			"Exile_Chopper_Huron_Black",
 			"Exile_Chopper_Hellcat_Green",
-			"B_Heli_Light_01_armed_F"
+			//Armed Choppers
+			"B_Heli_Light_01_armed_F",
+			"	O_Heli_Light_02_F",
+			"B_Heli_Transport_01_F",
+			"B_Heli_Transport_01_camo_F",
+			"B_Heli_Transport_03_black_F"
 		};
 	};
 
