@@ -404,7 +404,7 @@ allSupportBoxes[] =
 		{
 			"ItemMap",{"ItemGPS",5},"ItemWatch"
 		}
-	}
+	},
 	{
 		"Starter Kit",
 		{
