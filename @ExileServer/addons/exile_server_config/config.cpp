@@ -3293,17 +3293,4 @@ class CfgSettings
 			};
 		};
 	};
-	
-	class CfgVehicles
-	{
-		class CAManBase;
-		class EventHandlers;
-		class RyanZombieCivilian_F: CAManBase
-		{
-			class EventHandlers: EventHandlers
-			{
-				init = "_this exec '\exile_server_config\zombie.sqf'; _this exec '\ryanzombies\sounds.sqf'";
-			};
-		};
-	};
 };

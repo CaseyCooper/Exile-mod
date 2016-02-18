@@ -25,7 +25,7 @@ MediumMix = [
 [fastSoldiers,		3],
 [crawlers,			10],
 [spiders,			10]
-[boss,			1]
+//[boss,			1]
 ];
 
 MediumMil = [
@@ -37,7 +37,7 @@ MediumMil = [
 [fastSoldiers,		3],
 [crawlers,			2],
 [spiders,			2]
-[boss,			1]
+//[boss,			1]
 ];
 
 MediumCiv = [
@@ -49,7 +49,7 @@ MediumCiv = [
 //[fastSoldiers,	5],
 [crawlers,			5],
 [spiders,			5]
-[boss,			1]
+//[boss,			1]
 ];
 
 Hard = [
@@ -61,7 +61,7 @@ Hard = [
 [fastSoldiers,		5],
 [crawlers,			5],
 [spiders,			15]
-[boss,			1]
+//[boss,			1]
 ];
 
 Hardcore = [
@@ -73,5 +73,5 @@ Hardcore = [
 [fastSoldiers,	    15],
 [crawlers,		    1],
 [spiders,			3]
-[boss,			2]
+//[boss,			2]
 ];

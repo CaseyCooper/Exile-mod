@@ -29,7 +29,7 @@ ExplosiveType                = "Grenade" ;       // "mini_Grenade" for small alm
 ExplosiveRespect             = 100;              // Bonus respect for Exploding zombies
 
 //Killing zombies settings
-ZombieMoney                  = 10;               // Money per zombie kill
+ZombieMoney                  = 10;                // Money per zombie kill
 ZombieRespect                = 10;               // Respect per zombie kill
 RoadKillBonus                = 10;               // Bonus Respect if roadkill
 MinDistance                  = 50;               // Minimal distance for range bonus
@@ -70,7 +70,7 @@ _Ryanzombieslogicroamdemon             = -1;     // Demon Roam
 _Ryanzombiesjump                       = -1;     //Jumping Zombies
 _Ryanzombiesjumpdemon                  = 1;      //Jumping Demons
                                                  
-_Ryanzombiesfeed                       = 1;    	 //Feeding Zombies
+_Ryanzombiesfeed                       = 1;     //Feeding Zombies
 _Ryanzombiesfeeddemon                  = 1;      //Feeding Demons
                                                  
 _Ryanzombiesinfection                  = 1;      //Enable infections *(-1 to disable)
@@ -106,7 +106,7 @@ HSet = [
 /* 2 Vest group */           Nothing,            // Vest function defined in ZVest.sqf
 /* 3 Loot group */           Nothing,            // Loot function defined in ZLoot.sqf
 /* 4 Zombie group */         Hard,               // Group function defined in ZClasses.sqf
-/* 5 Avoid Territory */      true                // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
+/* 5 Avoid Territory */      false                // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
 ];
 
 UseHorde                     = true;             // Use the horde spawner             
