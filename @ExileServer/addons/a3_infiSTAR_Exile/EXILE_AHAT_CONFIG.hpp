@@ -405,6 +405,20 @@ allSupportBoxes[] =
 			"ItemMap",{"ItemGPS",5},"ItemWatch"
 		}
 	}
+	{
+		"Starter Kit",
+		{
+			{"Exile_Uniform_Woodland",1},
+			{"V_TacVest_camo",1},
+			{"H_Cap_grn",1},
+			{"B_OutdoorPack_tan",1},
+			{"Exile_Item_PlasticBottleCoffee",2},
+			{"NVGoggles",1},
+			{"Exile_Item_Cheathas",2},
+			{"hgun_P07_F",1},
+			{"16Rnd_9x21_Mag",2}
+		}
+	}
 };
 
 
