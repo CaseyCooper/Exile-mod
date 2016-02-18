@@ -1712,6 +1712,11 @@ class CfgExileArsenal
 	// Tempest
 	///////////////////////////////////////////////////////////////////////////////
 	class Exile_Car_Tempest 							{ quality = 1; price = 48300; };
+	class O_Truck_03_covered_F							{ quality = 1; price = 50000; };
+	class O_Truck_03_fuel_F								{ quality = 1; price = 55000; };
+	class O_Truck_03_medical_F							{ quality = 1; price = 60000; };
+	class O_Truck_03_repair_F							{ quality = 1; price = 85000; };
+	class O_Truck_03_ammo_F								{ quality = 1; price = 100000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Van 
@@ -2699,7 +2704,7 @@ class CfgTraderCategories
 			"U_BG_leader",
 			"U_IG_leader",
 			"U_I_G_resistanceLeader_F",
-			/*"U_B_FullGhillie_ard",
+			"U_B_FullGhillie_ard",
 			"U_B_FullGhillie_lsh",
 			"U_B_FullGhillie_sard",
 			"U_B_GhillieSuit",
@@ -2710,7 +2715,7 @@ class CfgTraderCategories
 			"U_O_FullGhillie_ard",
 			"U_O_FullGhillie_lsh",
 			"U_O_FullGhillie_sard",
-			"U_O_GhillieSuit",*/
+			"U_O_GhillieSuit",
 			"U_I_Wetsuit",
 			"U_O_Wetsuit",
 			"U_B_Wetsuit",
@@ -3192,7 +3197,7 @@ class CfgTraderCategories
 			//"130Rnd_338_Mag", SPMG
 			"150Rnd_762x54_Box",
 			"150Rnd_762x54_Box_Tracer",
-			//"150Rnd_93x64_Mag", // NAVID
+			"150Rnd_93x64_Mag", // NAVID
 			"16Rnd_9x21_Mag",
 			"200Rnd_65x39_cased_Box",
 			"200Rnd_65x39_cased_Box_Tracer",
@@ -3338,15 +3343,12 @@ class CfgTraderCategories
 			"arifle_MX_SW_Black_F",
 			"arifle_MX_SW_F",
 			"LMG_Mk200_F",
-			"LMG_Zafir_F"
-
-			/*
+			"LMG_Zafir_F",
 			"MMG_01_hex_F",
 			"MMG_01_tan_F",
 			"MMG_02_black_F",
 			"MMG_02_camo_F",
 			"MMG_02_sand_F"
-			*/
 		};
 	};
 
@@ -3458,12 +3460,19 @@ class CfgTraderCategories
 			"Exile_Car_Offroad_Armed_Guerilla01",
 			//Stryder
 			"Exile_Car_Strider",
+			"I_MRAP_03_hmg_F",
+			"I_MRAP_03_gmg_F",
 			//Hunter
 			"Exile_Car_Hunter",
 			"B_MRAP_01_hmg_F",
 			"B_MRAP_01_gmg_F",
 			//Tempest
 			"Exile_Car_Tempest",
+			"O_Truck_03_covered_F",
+			"O_Truck_03_fuel_F",
+			"O_Truck_03_medical_F",
+			"O_Truck_03_repair_F",
+			"O_Truck_03_ammo_F",
 			//Zamak
 			"Exile_Car_Zamak",
 			"O_Truck_02_fuel_F",
