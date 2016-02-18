@@ -3510,7 +3510,7 @@ class CfgTraderCategories
 			"Exile_Chopper_Hellcat_Green",
 			//Armed Choppers
 			"B_Heli_Light_01_armed_F",
-			"	O_Heli_Light_02_F",
+			"O_Heli_Light_02_F",
 			"B_Heli_Transport_01_F",
 			"B_Heli_Transport_01_camo_F",
 			"B_Heli_Transport_03_black_F"
