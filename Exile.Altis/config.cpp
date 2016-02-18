@@ -1699,6 +1699,8 @@ class CfgExileArsenal
 	// Strider
 	///////////////////////////////////////////////////////////////////////////////
 	class Exile_Car_Strider 							{ quality = 1; price = 44000; };
+	class I_MRAP_03_hmg_F 								{ quality = 1; price = 55000; };
+	class I_MRAP_03_gmg_F 								{ quality = 1; price = 75000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// SUV

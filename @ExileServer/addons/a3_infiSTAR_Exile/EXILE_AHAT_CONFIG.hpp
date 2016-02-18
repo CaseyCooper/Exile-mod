@@ -311,7 +311,7 @@ blacklistedVariables[] =
 };
 
 
-UVC = true;	/* Use Vehicle Check(s) - default "EXILE" vehicles are white-listed by default! */
+UVC = false;	/* Use Vehicle Check(s) - default "EXILE" vehicles are white-listed by default! */
 VehicleWhiteList[] =
 {
 	"B_Parachute","B_Parachute_02_F","O_Parachute_02_F","Steerable_Parachute_F",
