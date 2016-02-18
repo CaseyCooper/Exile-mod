@@ -29,7 +29,7 @@ ExplosiveType                = "Grenade" ;       // "mini_Grenade" for small alm
 ExplosiveRespect             = 100;              // Bonus respect for Exploding zombies
 
 //Killing zombies settings
-ZombieMoney                  = 5;                // Money per zombie kill
+ZombieMoney                  = 10;                // Money per zombie kill
 ZombieRespect                = 10;               // Respect per zombie kill
 RoadKillBonus                = 10;               // Bonus Respect if roadkill
 MinDistance                  = 50;               // Minimal distance for range bonus
@@ -63,14 +63,14 @@ _Ryanzombiescanthrowtankdistancedemon  = 10;     //Max throw distance for tanks
                                                  
 _ryanzombiesdisablemoaning             = -1;     // No idle sound
 _ryanzombiesdisableaggressive          = -1;     // No aggressive sounds
-_ryanzombiescivilianattacks            = -1;     // Attack civilians
+_ryanzombiescivilianattacks            = 1;     // Attack civilians
 _Ryanzombieslogicroam                  = 1;      // Roam ***roaming can be heavy on cpu
 _Ryanzombieslogicroamdemon             = -1;     // Demon Roam
                                                  
 _Ryanzombiesjump                       = -1;     //Jumping Zombies
 _Ryanzombiesjumpdemon                  = 1;      //Jumping Demons
                                                  
-_Ryanzombiesfeed                       = -1;     //Feeding Zombies
+_Ryanzombiesfeed                       = 1;     //Feeding Zombies
 _Ryanzombiesfeeddemon                  = 1;      //Feeding Demons
                                                  
 _Ryanzombiesinfection                  = 1;      //Enable infections *(-1 to disable)
@@ -105,8 +105,8 @@ HSet = [
 /* 1 Frequency */            180,                // time in seconds between each new zombie.
 /* 2 Vest group */           Nothing,            // Vest function defined in ZVest.sqf
 /* 3 Loot group */           Nothing,            // Loot function defined in ZLoot.sqf
-/* 4 Zombie group */         Easy,               // Group function defined in ZClasses.sqf
-/* 5 Avoid Territory */      true                // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
+/* 4 Zombie group */         Hard,               // Group function defined in ZClasses.sqf
+/* 5 Avoid Territory */      false                // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
 ];
 
 UseHorde                     = true;             // Use the horde spawner             
@@ -132,11 +132,11 @@ trigger3lootbox = compile preprocessFile "exilez\init\zmissionloot.sqf";
 Trigger_1 = [				 //Cities
 /* 0  Use this trigger */    True,               // Self - explanatory
 /* 1  Trigger Positions */   Cities,             // The name of the array used to list all trigger position in the TriggerPositions.sqf file
-/* 2  Max Zombies */         10,                 // The maximum number of zombies for that trigger.
+/* 2  Max Zombies */         25,                 // The maximum number of zombies for that trigger.
 /* 3  Activation Delay */    15,                 // The delay before the activation of the trigger.
 /* 4  Spawn Delay */         15,                 // The delay between each zombie spawn right after the activation until the Max group size is reached.
-/* 5  Respawn Delay */       60,                 // The respawn delay after the max group size was reached
-/* 6  Show Trigger On Map */ true,               // Put a marker at the location and radius of the trigger on the map
+/* 5  Respawn Delay */       80,                 // The respawn delay after the max group size was reached
+/* 6  Show Trigger On Map */ false,               // Put a marker at the location and radius of the trigger on the map
 /* 7  Marker Color */        "ColorRed",         // Color of the trigger
 /* 8  MarkerBrush */         "Solid",            // "Solid","SolidFull","Horizontal","Vertical","Grid","FDiagonal","BDiagonal","DiagGrid","Cross","Border","SolidBorder"
 /* 9  Marker Alpha */        0.2,                // Alpha of the trigger *(0 is invisible 1 is opaque)
@@ -144,7 +144,7 @@ Trigger_1 = [				 //Cities
 /* 11 Vest group */          Basic,              // The name of the Array used to list all the possible vest for that trigger. ZVest.sqf
 /* 12 Loot group */          Useful,             // The name of the Array used to list all the possible loot for that trigger. ZLoot.sqf
 /* 13 Zombie group */        MediumCiv,          // The name of the Group used to list the zombies possible for that trigger.  ZClasses.sqf
-/* 14 Avoid Territory */     false,              // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
+/* 14 Avoid Territory */     true,              // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
 /* 15 Mission Radius */      0,                  // Up to how far from the center of the trigger the mission LOOT can spawn.
 /* 16 Mission SQF */         nil,                // The location of the Mission file related to that trigger *(use M3Editor to create the file.) THIS IS STATIC AND WILL NOT MOVE WITH THE TRIGGER
 /* 17 Loot Box */            nil                 // The location of the Missionloot file related to that trigger *(See example file zmissionloot.sqf)
