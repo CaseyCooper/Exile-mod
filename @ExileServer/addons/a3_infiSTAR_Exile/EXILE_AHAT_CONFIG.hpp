@@ -77,7 +77,7 @@ startAsNormal[] =
 adminUIDandAccess[] =
 {
 	{
-		{"76561198134898961","76561198032047520","76561198054879039"},	/* Admins with UIDs in this Array have their Access defined in the array below. */
+		{"76561198134898961","76561198032047520","76561198054879039","76561198001066704"},	/* Admins with UIDs in this Array have their Access defined in the array below. */
 		{
 			"Teleport On Map Click","Teleport - Target To Me","Teleport - Me To Target","Teleport In Facing Direction (10m steps)",
 			"spectating","AdminConsole","Delete Vehicle","FlyUp","ShowGear","Show Server Information",
@@ -370,7 +370,18 @@ ForbiddenItems[] =
 allSupportBoxes[] =
 {
 	{
-		"Support-Box1",
+		"Construction Box Large",
+		{
+			"Exile_Item_Flag",
+			{"Exile_Item_WoodDoorKit",15},{"Exile_Item_WoodDoorwayKit",15},{"Exile_Item_WoodDrawBridgeKit",15},
+			{"Exile_Item_WoodFloorKit",15},{"Exile_Item_WoodFloorPortKit",15},{"Exile_Item_WoodGateKit",15},
+			{"Exile_Item_WoodLog",15},{"Exile_Item_WoodPlank",15},{"Exile_Item_WoodStairsKit",15},
+			{"Exile_Item_WoodSupportKit",15},{"Exile_Item_WoodWallHalfKit",15},{"Exile_Item_WoodWallKit",15},
+			{"Exile_Item_WoodWindowKit",15},{"Exile_Item_WorkBenchKit",15}
+		}
+	},
+	{
+		"Construction Box Medium",
 		{
 			"Exile_Item_Flag","Exile_Item_CookingPot",
 			{"Exile_Item_Codelock",5},{"Exile_Item_DuctTape",10},{"Exile_Item_InstaDoc",10},
@@ -382,25 +393,14 @@ allSupportBoxes[] =
 		}
 	},
 	{
-		"Support-Box2",
-		{
-			"Exile_Item_Flag",
-			{"Exile_Item_WoodDoorKit",15},{"Exile_Item_WoodDoorwayKit",15},{"Exile_Item_WoodDrawBridgeKit",15},
-			{"Exile_Item_WoodFloorKit",15},{"Exile_Item_WoodFloorPortKit",15},{"Exile_Item_WoodGateKit",15},
-			{"Exile_Item_WoodLog",15},{"Exile_Item_WoodPlank",15},{"Exile_Item_WoodStairsKit",15},
-			{"Exile_Item_WoodSupportKit",15},{"Exile_Item_WoodWallHalfKit",15},{"Exile_Item_WoodWallKit",15},
-			{"Exile_Item_WoodWindowKit",15},{"Exile_Item_WorkBenchKit",15}
-		}
-	},
-	{
-		"Support-Box3",
+		"Construction Box Small",
 		{
 			{"Exile_Item_Flag",5},{"Exile_Item_WoodDoorKit",15},{"Exile_Item_WoodWallKit",15},
 			{"Exile_Item_WoodWindowKit",15},{"Exile_Item_WoodFloorKit",15},{"Exile_Item_SafeKit",5}
 		}
 	},
 	{
-		"Support-Box4",
+		"Support-Box",
 		{
 			"ItemMap",{"ItemGPS",5},"ItemWatch"
 		}
