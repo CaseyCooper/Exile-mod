@@ -112,12 +112,12 @@ HSet = [
 UseHorde                     = true;             // Use the horde spawner             
 
 HordeSet = [
-/* 0 Groups Size  */         15,                 // maximum number of zombies around a player
+/* 0 Groups Size  */         18,                 // maximum number of zombies around a player
 /* 1 Min Frequency */        20,                 // min time in minutes between each new zombie horde.
-/* 2 Max Frequency */        60,                 // max time in minutes between each new zombie horde.
+/* 2 Max Frequency */        40,                 // max time in minutes between each new zombie horde.
 /* 3 Vest group */           Basic,              // Vest function defined in ZVest.sqf
 /* 4 Loot group */           DocAndAmmo,         // Loot function defined in ZLoot.sqf
-/* 5 Zombie group */         MediumMix,          // Group function defined in ZClasses.sqf
+/* 5 Zombie group */         Hardcore,          // Group function defined in ZClasses.sqf
 /* 6 Avoid Territory */      true,               // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
 /* 7 Horde density */        25                  // Radius in which the zombies will spawn should be lower than Min Spawn Distance.
 ];
