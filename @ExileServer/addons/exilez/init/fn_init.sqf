@@ -51,8 +51,8 @@ _Ryanzombiesdamagecarstrenth           = 1.5;	 //Car attack strength *(Knockback
 _Ryanzombiesdamageairstrenth           = 1;	     //Air attack strength *(Knockback strength M/S)
 _Ryanzombiesdamagetankstrenth          = 0.4;	 //Tank attack strength *(Knockback strength M/S)
                                                  
-_Ryanzombiescanthrow 		           = -1;	 //Enable or disable Throwing for zombies
-_Ryanzombiescanthrowtank               = -1;	 //Enable or disable Throwing tank for zombies                                              
+_Ryanzombiescanthrow 		           = 1;	 //Enable or disable Throwing for zombies
+_Ryanzombiescanthrowtank               = 1;	 //Enable or disable Throwing tank for zombies                                              
 _Ryanzombiescanthrowdistance           = 10;	 //Max throw distance
 _Ryanzombiescanthrowtankdistance       = 0;      //Max throw distance for tanks                         
                                                  
@@ -67,7 +67,7 @@ _ryanzombiescivilianattacks            = 1;     // Attack civilians
 _Ryanzombieslogicroam                  = 1;      // Roam ***roaming can be heavy on cpu
 _Ryanzombieslogicroamdemon             = -1;     // Demon Roam
                                                  
-_Ryanzombiesjump                       = -1;     //Jumping Zombies
+_Ryanzombiesjump                       = 1;     //Jumping Zombies
 _Ryanzombiesjumpdemon                  = 1;      //Jumping Demons
                                                  
 _Ryanzombiesfeed                       = 1;     //Feeding Zombies
@@ -140,7 +140,7 @@ Trigger_1 = [				 //Cities
 /* 7  Marker Color */        "ColorRed",         // Color of the trigger
 /* 8  MarkerBrush */         "Solid",            // "Solid","SolidFull","Horizontal","Vertical","Grid","FDiagonal","BDiagonal","DiagGrid","Cross","Border","SolidBorder"
 /* 9  Marker Alpha */        0.2,                // Alpha of the trigger *(0 is invisible 1 is opaque)
-/* 10 Marker Text */         "",                 // The text on the trigger
+/* 10 Marker Text */         "Quarantine Zone",  // The text on the trigger
 /* 11 Vest group */          Basic,              // The name of the Array used to list all the possible vest for that trigger. ZVest.sqf
 /* 12 Loot group */          Useful,             // The name of the Array used to list all the possible loot for that trigger. ZLoot.sqf
 /* 13 Zombie group */        MediumCiv,          // The name of the Group used to list the zombies possible for that trigger.  ZClasses.sqf
