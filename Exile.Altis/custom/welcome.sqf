@@ -1,7 +1,7 @@
 if(isDedicated) exitWith {};
 
-_sizeTitle             = 0.65; // Font Size of the Title Messages
-_sizeSubText         = 0.55;  // Font Size of the SubTitle Messages
+_sizeTitle             = 0.70; // Font Size of the Title Messages
+_sizeSubText         = 0.60;  // Font Size of the SubTitle Messages
 _colorTitle         = "#0969ee"; // HTML Color Code of the Title Messages (must start with '#' )
 _colorSubText         = "#1cee09"; // HTML Color Code of the SubTitle Messages (must start with '#' )
 _alignTitle         = "left"; // Alignment of the Title Message (right or left)
@@ -11,7 +11,7 @@ _fontSubText        = "PuristaLight"; // Font Type Of SubTitle Messages
 
 
 _Delay                = 15; // Wait in seconds before the credits start after player IS ingame
-_FadeIn             = 5; //how long one role should stay on screen. Use value from 0 to 10 where 0 is almost instant transition to next role
+_FadeIn             = 6; //how long one role should stay on screen. Use value from 0 to 10 where 0 is almost instant transition to next role
 
 
 _IntroMusic            = true; // Welcome Intro Song During the credits (true or false)
@@ -51,13 +51,13 @@ _title6         = "Play Fair And Enjoy";
 _shorttext6     = "Admins are Always Active";
 _posText6        = [0.8,0.5,0.4];
 
-/*
 
-_title7        = "MORE TEXT";
-_shorttext7    = "DONT FORGET TO ADD A NUMBER EACH TIME";
+
+_title7        = "Teamspeak IP";
+_shorttext7    = "192.245.65.194";
 _posText7       = [0.3,0.55,0.5];
 
-*/
+
 
 
 /***********************************************************************************************************************************************/

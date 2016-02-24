@@ -25,7 +25,7 @@ _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'></t><br />";
 _message = _message + "<t align='center' size='2' shadow='0'>Welcome to <a href='http://www.crftgaming.org/forums/' color='#ff9900'>CRFT Exile</a>, Arma 3 Altis Exile Custom!</t><br />";
 _message = _message + "______________________________________________________________________________________<br /><br />";
-_message = _message + "<t align='center' size='1' shadow='0'><a href='http://www.crftgaming.org/forums/' color='#ff9900'>TS3</a>:162.248.241.98<br />";
+_message = _message + "<t align='center' size='1' shadow='0'><a href='http://www.crftgaming.org/forums/' color='#ff9900'>TS3</a>:192.245.65.194<br />";
 _message = _message + "Click this link to get to our website: <a href= 'http://www.crftgaming.org/forums/' color='#ff9900'>Website</a><br />";
 _message = _message + "Click this link to report a bug: <a href= 'http://www.crftgaming.org/forums/forumdisplay.php?fid=70' color='#ff9900'>Report a bug</a> This helps us out alot!<br />";
 _message = _message + "Click this link for support: <a href= 'http://www.crftgaming.org/forums/forumdisplay.php?fid=69' color='#ff9900'>Support</a> This helps you out alot!</t><br /><br />";
